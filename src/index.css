@@ -11,3 +11,19 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card{
+  padding: 5px;
+}
+
+img{
+  width: 150px;
+}
+.card-section{
+  display: flex;
+  flex-wrap: wrap;
+}
