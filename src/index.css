@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
 }
 
 code {
@@ -18,10 +19,14 @@ code {
 }
 .card{
   padding: 5px;
+  background-color: rgb(186, 240, 240);
+  border-radius: 20px;
+  margin: 5px;
 }
 
 img{
   width: 150px;
+  border-radius: 20px;
 }
 .card-section{
   display: flex;

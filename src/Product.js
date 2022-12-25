@@ -9,6 +9,7 @@ const Product = () => {
                 <img src={img} alt={`${alt}`} />
                 <h5>Chihuahua di Razza</h5>
                 <button>{prezzo} €</button>
+                <p className='card_time'>PRESTO</p>
             </div>
         </article>
     )
